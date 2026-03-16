@@ -48,7 +48,7 @@
 			body {
 				font-family: "Cairo", sans-serif;
 				background: radial-gradient(circle at 20% 20%, #ffffff, transparent 55%),
-					radial-gradient(circle at 80% 0%, rgba(241, 178, 74, 0.35), transparent 50%),
+					radial-gradient(circle at 80% 0%, rgba(14, 13, 11, 0.35), transparent 50%),
 					radial-gradient(circle at 20% 85%, rgba(37, 113, 128, 0.2), transparent 45%),
 					linear-gradient(135deg, #fef7f0 0%, #f1efe9 50%, #f8f2ea 100%);
 				color: var(--ink);
@@ -555,20 +555,20 @@
                     <a href="#about">
                         <span data-lang="ar">عنّي</span><span data-lang="en">About</span>
                     </a>
+                    <a href="#education">
+                        <span data-lang="ar">التعليم</span><span data-lang="en">Education</span>
+                    </a>
                     <a href="#skills">
                         <span data-lang="ar">المهارات</span><span data-lang="en">Skills</span>
+                    </a>
+                    <a href="#experience">
+                        <span data-lang="ar">الخبرة</span><span data-lang="en">Experience</span>
                     </a>
                     <a href="#services">
                         <span data-lang="ar">الخدمات</span><span data-lang="en">Services</span>
                     </a>
                     <a href="#projects">
                         <span data-lang="ar">المشاريع</span><span data-lang="en">Projects</span>
-                    </a>
-                    <a href="#education">
-                        <span data-lang="ar">التعليم</span><span data-lang="en">Education</span>
-                    </a>
-                    <a href="#courses">
-                        <span data-lang="ar">الدورات</span><span data-lang="en">Courses</span>
                     </a>
                     <a href="#certificates">
                         <span data-lang="ar">الشهادات</span><span data-lang="en">Certificates</span>
@@ -637,6 +637,28 @@
 				</div>
 			</header>
 
+			<section class="section fade-up" id="education">
+				<h2 class="section-title" data-lang="ar">التعليم</h2>
+				<h2 class="section-title" data-lang="en">Education</h2>
+				<div class="grid">
+					<div class="card edu-card">
+						<div class="edu-header">
+							<a class="edu-link" href="https://sha.edu.eg/" target="_blank" rel="noreferrer">
+								<img class="edu-logo" src="imag/images.png" alt="Shorouk Academy logo" />
+							</a>
+							<div>
+								<h4 data-lang="ar">أكاديمية الشروق</h4>
+								<h4 data-lang="en">El Shorouk Academy</h4>
+								<p class="lang-block" data-lang="ar">طالب في قسم علوم الحاسب (Computer Science) - السنة الثانية.</p>
+								<p class="lang-block" data-lang="en">Computer Science student - 2nd year.</p>
+							</div>
+						</div>
+						<a class="edu-link" href="https://sha.edu.eg/" target="_blank" rel="noreferrer" data-lang="ar">زيارة موقع الكلية</a>
+						<a class="edu-link" href="https://sha.edu.eg/" target="_blank" rel="noreferrer" data-lang="en">Visit College Website</a>
+					</div>
+				</div>
+			</section>
+
             <section class="section fade-up fade-delay-3" id="skills">
                 <h2 class="section-title" data-lang="ar">المهارات</h2>
                 <h2 class="section-title" data-lang="en">Skills</h2>
@@ -678,6 +700,42 @@
                     </div>
                 </div>
             </section>
+
+			<!-- Experience Section -->
+			<section class="section fade-up" id="experience">
+				<h2 class="section-title" data-lang="ar">الخبرة</h2>
+				<h2 class="section-title" data-lang="en">Experience</h2>
+				<div class="grid">
+					<div class="card edu-card">
+						<div class="edu-header">
+							<div>
+								<h4 data-lang="ar">مبادرة رواد مصر الرقمية (DEPI)</h4>
+								<h4 data-lang="en">Digital Egypt Pioneers Initiative (DEPI)</h4>
+								<p class="lang-block" data-lang="ar" style="color: var(--accent-2); font-weight: 600; margin-bottom: 8px;">متدرب — مسار هندسة البيانات | 2024 – الحاضر</p>
+								<p class="lang-block" data-lang="en" style="color: var(--accent-2); font-weight: 600; margin-bottom: 8px;">Trainee — Data Engineer Track | 2024 – Present</p>
+								<p class="lang-block" data-lang="ar">اكتسبت خبرة عملية في هندسة البيانات من خلال تدريب مكثف يشمل Python المتقدمة، SQL، خطوط ETL، معالجة البيانات الضخمة والتحضير لشهادة Microsoft Azure Data Engineer Associate.</p>
+								<p class="lang-block" data-lang="en">Gained hands-on experience in data engineering through intensive training covering Advanced Python, SQL, ETL pipelines, Big Data processing, and preparation for Microsoft Azure Data Engineer Associate certification.</p>
+							</div>
+						</div>
+						<div style="margin-top: 16px;">
+							<p style="margin-bottom: 8px; color: var(--ink); font-weight:700;"><span data-lang="en">Courses Completed:</span><span data-lang="ar">الدورات المكتملة:</span></p>
+							<div class="skills" style="margin-top: 8px;">
+								<span class="pill">Prompt Engineering</span>
+								<span class="pill">Intro to Data Engineering</span>
+								<span class="pill">Programming Essentials</span>
+								<span class="pill">SQL &amp; Database Management</span>
+								<span class="pill">Advanced Python for Data Engineering</span>
+								<span class="pill">Data Pipelines</span>
+								<span class="pill">Big Data Processing</span>
+								<span class="pill">Microsoft Azure Data Engineer Associate</span>
+								<span class="pill">Deployment</span>
+								<span class="pill">AI for Data Engineers</span>
+								<span class="pill">Capstone Project</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
             <section class="section fade-up" id="services">
                 <h2 class="section-title" data-lang="ar">الخدمات</h2>
@@ -732,7 +790,23 @@
                             </div>
                             <span class="cta cta-outline" style="padding: 8px 16px; font-size: 14px;">
                                 <span data-lang="ar">عرض التفاصيل والصور</span>
-                                <span data-lang="en">View Details & Images</span>
+                                <span data-lang="en">View Details &amp; Images</span>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="card popup-card" style="padding:0; overflow:hidden; cursor:pointer;" onclick="openModal('project2-modal')">
+                        <img src="imag/project_2/caver.png" alt="Football Analytics ETL Pipeline Cover" style="width:100%; height:200px; object-fit:cover;" />
+                        <div style="padding: 24px; text-align: center;">
+                            <h4 style="font-size: 20px; margin-bottom: 5px;">Football Analytics ETL Pipeline</h4>
+                            <div class="skills" style="justify-content: center; margin-bottom: 15px;">
+                                <span class="pill" style="font-size: 11px;">Python</span>
+                                <span class="pill" style="font-size: 11px;">SQL Server</span>
+                                <span class="pill" style="font-size: 11px;">ETL</span>
+                            </div>
+                            <span class="cta cta-outline" style="padding: 8px 16px; font-size: 14px;">
+                                <span data-lang="ar">عرض التفاصيل والصور</span>
+                                <span data-lang="en">View Details &amp; Images</span>
                             </span>
                         </div>
                     </div>
@@ -783,103 +857,83 @@
                 </div>
             </div>
 
-			<section class="section fade-up" id="education">
-				<h2 class="section-title" data-lang="ar">التعليم</h2>
-				<h2 class="section-title" data-lang="en">Education</h2>
-				<div class="grid">
-					<div class="card edu-card">
-						<div class="edu-header">
-							<a class="edu-link" href="https://sha.edu.eg/" target="_blank" rel="noreferrer">
-								<img class="edu-logo" src="imag/images.png" alt="Shorouk Academy logo" />
-							</a>
-							<div>
-								<h4 data-lang="ar">أكاديمية الشروق</h4>
-								<h4 data-lang="en">El Shorouk Academy</h4>
-								<p class="lang-block" data-lang="ar">طالب في قسم علوم الحاسب (Computer Science) - السنة الثانية.</p>
-								<p class="lang-block" data-lang="en">Computer Science student - 2nd year.</p>
-							</div>
-						</div>
-						<a class="edu-link" href="https://sha.edu.eg/" target="_blank" rel="noreferrer" data-lang="ar">
-							زيارة موقع الكلية
-						</a>
-						<a class="edu-link" href="https://sha.edu.eg/" target="_blank" rel="noreferrer" data-lang="en">
-							Visit College Website
-						</a>
-					</div>
-                    <div class="card edu-card">
-						<div class="edu-header">
-							<div>
-								<h4 data-lang="ar">مبادرة رواد مصر الرقمية (DEPI)</h4>
-								<h4 data-lang="en">Digital Egypt Pioneers Initiative (DEPI)</h4>
-								<p class="lang-block" data-lang="ar">متدرب في مسار هندسة البيانات (Data Engineer).</p>
-								<p class="lang-block" data-lang="en">Trainee in the Data Engineer Track.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+			<!-- Project 2 Modal -->
+            <div class="modal-overlay" id="project2-modal" onclick="closeModal(event, 'project2-modal')">
+                <div class="modal-content" onclick="event.stopPropagation()">
+                    <button class="modal-close" onclick="closeModal(null, 'project2-modal')">&times;</button>
+                    <h3 style="font-size: 24px; margin-bottom: 20px; padding-top: 10px;">Football Analytics ETL Pipeline</h3>
 
-			<section class="section fade-up" id="courses">
-				<h2 class="section-title" data-lang="ar">الدورات التدريبية</h2>
-				<h2 class="section-title" data-lang="en">Courses</h2>
-				<div class="grid">
-					<div class="card">
-						<h4>Prompt Engineering</h4>
-						<p class="lang-block" data-lang="ar">تصميم مطالبات ذكية لدعم حلول الذكاء الاصطناعي في منتجات البيانات.</p>
-						<p class="lang-block" data-lang="en">Designing smart prompts that enhance AI-driven data products.</p>
-					</div>
-					<div class="card">
-						<h4>Intro to Data Engineering</h4>
-						<p class="lang-block" data-lang="ar">بناء أساس قوي في هندسة البيانات وهيكلة المنظومات الحديثة.</p>
-						<p class="lang-block" data-lang="en">Building a strong foundation in data engineering and modern architectures.</p>
-					</div>
-					<div class="card">
-						<h4>Programming Essentials</h4>
-						<p class="lang-block" data-lang="ar">أساسيات البرمجة لتطوير حلول موثوقة وقابلة للتوسع.</p>
-						<p class="lang-block" data-lang="en">Programming fundamentals for reliable, scalable solutions.</p>
-					</div>
-					<div class="card">
-						<h4>SQL &amp; Database Management</h4>
-						<p class="lang-block" data-lang="ar">إدارة قواعد البيانات وتحسين الاستعلامات ودعم الأداء العالي.</p>
-						<p class="lang-block" data-lang="en">Database management, query tuning, and performance optimization.</p>
-					</div>
-					<div class="card">
-						<h4>Advanced Python for Data Engineering</h4>
-						<p class="lang-block" data-lang="ar">تطوير سكربتات بيانات متقدمة وتجهيز البيانات بكفاءة.</p>
-						<p class="lang-block" data-lang="en">Advanced Python for efficient data processing and automation.</p>
-					</div>
-					<div class="card">
-						<h4>Data Pipelines</h4>
-						<p class="lang-block" data-lang="ar">تصميم خطوط بيانات آمنة، مرنة، وقابلة للتوسع.</p>
-						<p class="lang-block" data-lang="en">Designing secure, flexible, scalable data pipelines.</p>
-					</div>
-					<div class="card">
-						<h4>Big Data Processing</h4>
-						<p class="lang-block" data-lang="ar">معالجة البيانات الضخمة باستخدام أدوات Microsoft الحديثة.</p>
-						<p class="lang-block" data-lang="en">Processing big data using modern Microsoft tools.</p>
-					</div>
-					<div class="card">
-						<h4>Microsoft Azure Data Engineer Associate</h4>
-						<p class="lang-block" data-lang="ar">الاستعداد لشهادة Microsoft الرسمية لمسار هندسة البيانات.</p>
-						<p class="lang-block" data-lang="en">Preparation for the official Microsoft Data Engineer certification.</p>
-					</div>
-					<div class="card">
-						<h4>Deployment</h4>
-						<p class="lang-block" data-lang="ar">أتمتة النشر والتكامل المستمر وضبط البيئات.</p>
-						<p class="lang-block" data-lang="en">Deployment automation, CI/CD, and environment management.</p>
-					</div>
-					<div class="card">
-						<h4>AI for Data Engineers</h4>
-						<p class="lang-block" data-lang="ar">دمج الذكاء الاصطناعي لتحسين جودة التحليلات والقرارات.</p>
-						<p class="lang-block" data-lang="en">Applying AI to improve analytics quality and decisions.</p>
-					</div>
-					<div class="card">
-						<h4>Capstone project</h4>
-						<p class="lang-block" data-lang="ar">مشروع تطبيقي شامل يجمع بين جميع المهارات السابقة.</p>
-						<p class="lang-block" data-lang="en">A comprehensive project that combines all skills.</p>
-					</div>
-				</div>
-			</section>
+                    <img src="imag/project_2/caver.png" alt="Football Analytics ETL Pipeline Cover" style="width:100%; height:250px; object-fit:cover; border-radius: 16px; margin-bottom: 20px;" />
+
+                    <p class="lang-block" data-lang="ar" style="margin-bottom:14px;">
+                        مشروع داتا إنجينيرينج متكامل لتحليل بيانات كرة القدم الأوروبية باستخدام Python و SQL Server.
+                    </p>
+                    <ul class="lang-block" data-lang="ar" style="margin-bottom:14px; padding-right: 20px; color: var(--muted); line-height: 2;">
+                        <li>استخراج وتنظيف بيانات <b>25,979 مباراة</b> من <b>11 دوري أوروبي</b></li>
+                        <li>بناء ETL Pipeline كاملة باستخدام Python و Pandas</li>
+                        <li>تخزين البيانات في SQL Server باستخدام SQLAlchemy</li>
+                        <li>تحليل البيانات واستخراج إحصائيات مهمة بـ SQL</li>
+                    </ul>
+
+                    <p class="lang-block" data-lang="en" style="margin-bottom:14px;">
+                        A comprehensive data engineering project for analyzing European football data using Python and SQL Server.
+                    </p>
+                    <ul class="lang-block" data-lang="en" style="margin-bottom:14px; padding-left: 20px; color: var(--muted); line-height: 2;">
+                        <li>Extracted and cleaned data for <b>25,979 matches</b> from <b>11 European leagues</b></li>
+                        <li>Built a complete ETL Pipeline using Python and Pandas</li>
+                        <li>Stored data in SQL Server using SQLAlchemy</li>
+                        <li>Analyzed data and extracted key statistics using SQL</li>
+                    </ul>
+
+                    <p style="margin-bottom: 8px; color: var(--ink); font-weight:700;"><span data-lang="en">Technologies:</span><span data-lang="ar">التقنيات:</span></p>
+                    <div class="skills" style="margin-bottom: 20px;">
+                        <span class="pill">Python</span>
+                        <span class="pill">Pandas</span>
+                        <span class="pill">SQL Server</span>
+                        <span class="pill">SQLAlchemy</span>
+                        <span class="pill">Jupyter Notebook</span>
+                    </div>
+
+                    <!-- SQL Queries Gallery -->
+                    <p style="margin-bottom: 8px; color: var(--ink); font-weight:700;"><span data-lang="en">SQL Queries Gallery:</span><span data-lang="ar">معرض استعلامات SQL:</span></p>
+                    <div style="display: flex; gap: 10px; margin-bottom: 24px; overflow-x: auto; padding-bottom: 10px;">
+                        <img src="imag/project_2/query imeg/query_1.png" alt="SQL Query" style="width: 200px; height: 130px; object-fit: cover; border-radius: 8px; border: 1px solid var(--stroke); flex-shrink: 0;"/>
+                        <img src="imag/project_2/query imeg/query_2.png" alt="SQL Query" style="width: 200px; height: 130px; object-fit: cover; border-radius: 8px; border: 1px solid var(--stroke); flex-shrink: 0;"/>
+                        <img src="imag/project_2/query imeg/query_3.png" alt="SQL Query" style="width: 200px; height: 130px; object-fit: cover; border-radius: 8px; border: 1px solid var(--stroke); flex-shrink: 0;"/>
+                        <img src="imag/project_2/query imeg/query_4.png" alt="SQL Query" style="width: 200px; height: 130px; object-fit: cover; border-radius: 8px; border: 1px solid var(--stroke); flex-shrink: 0;"/>
+                        <img src="imag/project_2/query imeg/query_5.png" alt="SQL Query" style="width: 200px; height: 130px; object-fit: cover; border-radius: 8px; border: 1px solid var(--stroke); flex-shrink: 0;"/>
+                    </div>
+
+                    <!-- Jupyter Notebook Gallery -->
+                    <p style="margin-bottom: 8px; color: var(--ink); font-weight:700;"><span data-lang="en">Jupyter Notebook Gallery:</span><span data-lang="ar">معرض Jupyter Notebook:</span></p>
+                    <div style="display: flex; gap: 10px; margin-bottom: 24px; overflow-x: auto; padding-bottom: 10px;">
+                        <img src="imag/project_2/jupter imeg/scren_ (1).png" alt="Jupyter Notebook" style="width: 200px; height: 130px; object-fit: cover; border-radius: 8px; border: 1px solid var(--stroke); flex-shrink: 0;"/>
+                        <img src="imag/project_2/jupter imeg/scren_ (2).png" alt="Jupyter Notebook" style="width: 200px; height: 130px; object-fit: cover; border-radius: 8px; border: 1px solid var(--stroke); flex-shrink: 0;"/>
+                        <img src="imag/project_2/jupter imeg/scren_ (3).png" alt="Jupyter Notebook" style="width: 200px; height: 130px; object-fit: cover; border-radius: 8px; border: 1px solid var(--stroke); flex-shrink: 0;"/>
+                        <img src="imag/project_2/jupter imeg/scren_ (4).png" alt="Jupyter Notebook" style="width: 200px; height: 130px; object-fit: cover; border-radius: 8px; border: 1px solid var(--stroke); flex-shrink: 0;"/>
+                        <img src="imag/project_2/jupter imeg/scren_(5).png" alt="Jupyter Notebook" style="width: 200px; height: 130px; object-fit: cover; border-radius: 8px; border: 1px solid var(--stroke); flex-shrink: 0;"/>
+                        <img src="imag/project_2/jupter imeg/scren_(6).png" alt="Jupyter Notebook" style="width: 200px; height: 130px; object-fit: cover; border-radius: 8px; border: 1px solid var(--stroke); flex-shrink: 0;"/>
+                        <img src="imag/project_2/jupter imeg/scren_ (7).png" alt="Jupyter Notebook" style="width: 200px; height: 130px; object-fit: cover; border-radius: 8px; border: 1px solid var(--stroke); flex-shrink: 0;"/>
+                        <img src="imag/project_2/jupter imeg/scren_(8).png" alt="Jupyter Notebook" style="width: 200px; height: 130px; object-fit: cover; border-radius: 8px; border: 1px solid var(--stroke); flex-shrink: 0;"/>
+                        <img src="imag/project_2/jupter imeg/scren_ (9).png" alt="Jupyter Notebook" style="width: 200px; height: 130px; object-fit: cover; border-radius: 8px; border: 1px solid var(--stroke); flex-shrink: 0;"/>
+                        <img src="imag/project_2/jupter imeg/scren_(10).png" alt="Jupyter Notebook" style="width: 200px; height: 130px; object-fit: cover; border-radius: 8px; border: 1px solid var(--stroke); flex-shrink: 0;"/>
+                        <img src="imag/project_2/jupter imeg/scren_(11).png" alt="Jupyter Notebook" style="width: 200px; height: 130px; object-fit: cover; border-radius: 8px; border: 1px solid var(--stroke); flex-shrink: 0;"/>
+                        <img src="imag/project_2/jupter imeg/scren_ (12).png" alt="Jupyter Notebook" style="width: 200px; height: 130px; object-fit: cover; border-radius: 8px; border: 1px solid var(--stroke); flex-shrink: 0;"/>
+                        <img src="imag/project_2/jupter imeg/scren_ (13).png" alt="Jupyter Notebook" style="width: 200px; height: 130px; object-fit: cover; border-radius: 8px; border: 1px solid var(--stroke); flex-shrink: 0;"/>
+                        <img src="imag/project_2/jupter imeg/scren_ (14).png" alt="Jupyter Notebook" style="width: 200px; height: 130px; object-fit: cover; border-radius: 8px; border: 1px solid var(--stroke); flex-shrink: 0;"/>
+                        <img src="imag/project_2/jupter imeg/scren_ (15).png" alt="Jupyter Notebook" style="width: 200px; height: 130px; object-fit: cover; border-radius: 8px; border: 1px solid var(--stroke); flex-shrink: 0;"/>
+                        <img src="imag/project_2/jupter imeg/scren_ (16).png" alt="Jupyter Notebook" style="width: 200px; height: 130px; object-fit: cover; border-radius: 8px; border: 1px solid var(--stroke); flex-shrink: 0;"/>
+                        <img src="imag/project_2/jupter imeg/scren_ (17).png" alt="Jupyter Notebook" style="width: 200px; height: 130px; object-fit: cover; border-radius: 8px; border: 1px solid var(--stroke); flex-shrink: 0;"/>
+                    </div>
+
+                    <a class="cta" href="https://github.com/mo7amed3ali/football-etl-pipeline" target="_blank" rel="noreferrer" style="font-size: 15px; padding: 12px 24px; width: 100%;">
+                        <span data-lang="en">View on GitHub</span>
+                        <span data-lang="ar">عرض على GitHub</span>
+                    </a>
+                </div>
+            </div>
+
+
 
             <section class="section fade-up" id="certificates">
                 <h2 class="section-title" data-lang="ar">الشهادات</h2>
@@ -893,6 +947,9 @@
                     </div>
                     <div class="card" style="padding:20px; display:flex; justify-content:center; align-items:center;">
                          <img src="imag/sert/sprints [py].png" style="width: 100%; border-radius: 12px; height: 100%; object-fit: contain;" alt="Certificate"/>
+                    </div>
+                    <div class="card" style="padding:20px; display:flex; justify-content:center; align-items:center;">
+                         <img src="imag/sert/photo_2026-03-16_17-39-27.jpg" style="width: 100%; border-radius: 12px; height: 100%; object-fit: contain;" alt="Certificate"/>
                     </div>
                 </div>
             </section>
